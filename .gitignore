@@ -1,0 +1,48 @@
+# SECRET KEYS/TOKENS - NEVER COMMIT THESE!
+.env
+*.env
+.env.*
+
+# VIRTUAL ENVIRONMENT
+venv/
+env/
+ENV/
+.venv/
+
+# PYTHON CACHE FILES
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.py[cod]
+*$py.class
+
+# DISTRIBUTION / PACKAGING
+dist/
+build/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE / EDITOR FILES
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# JUPYTER NOTEBOOKS
+.ipynb_checkpoints/
+
+# LOGS
+*.log
+
+# DATABASE
+*.db
+*.sqlite
+*.sqlite3
+
+# OPERATING SYSTEM FILES
+.DS_Store
+Thumbs.db
+desktop.ini

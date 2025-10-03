@@ -1,0 +1,33 @@
+# .gitignore
+
+# 1. SECRET KEYS/TOKENS
+# Always ignore the file containing your sensitive environment variables
+.env
+
+# 2. VIRTUAL ENVIRONMENT
+# Ignore the virtual environment folder
+venv/
+env/
+
+# 3. PYTHON SPECIFIC FILES
+# Compiled Python files (bytecode)
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Packaging/Distribution files
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE/Editor specific files (common examples)
+.vscode/   # VS Code settings (if you don't want to share them)
+.idea/     # PyCharm/IntelliJ files
+*.swp      # Vim swap files
+*~         # Backup files
+
+# 4. OPERATING SYSTEM FILES
+.DS_Store  # macOS files
+Thumbs.db  # Windows files
